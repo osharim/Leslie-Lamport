@@ -3,21 +3,6 @@ Leslie-Lamport
 
 Lamport's bakery algorithm is a computer algorithm devised by computer scientist Leslie Lamport, which is intended to improve the safety in the usage of shared resources among multiple threads by means of mutual exclusion.
 
-
-Implemetation
-============
-
-There are 2 java applications running at the same time.
-
-##1st SERVER
-
-the server listens on the wifi network. all packages are shipped using bradcasting through mobile devices. generates the shift that corresponds to each mobile device and enters the critical zone, MUTEX a look that is released makes it known to each mobile device that has made use of this resource.
-
-##2nd Mobile 
-
-the mobile device based on android system. by broadcasting sends the request to the server that it wants to take a turn, waits for his turn and you will notice the whole process
-
-
 Pseudocode
 
 
